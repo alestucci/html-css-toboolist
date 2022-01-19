@@ -46,11 +46,8 @@ main {
 }
 
 .tasks {
-    margin-top: 3px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 12px;
-    padding: 1em 3em;
+    margin: 3px auto 100px auto;
+    padding: 2em 3em;
     background-color: white;
     width: 960px;
     height: 300px;
@@ -60,3 +57,18 @@ main {
 ul {
     list-style: none;
 }
+
+.check {
+    color: #64c0a9;
+    border: 1px solid #64c0a9;
+    border-radius: 50%;
+    padding: .2em;      
+}
+
+.cross {
+    color: #eb5952;
+    border: .1em solid #eb5952;
+    border-radius: 50%;
+    padding: .1em;      
+}
+
